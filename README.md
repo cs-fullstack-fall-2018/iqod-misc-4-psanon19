@@ -9,18 +9,27 @@ Input:
 kennIsAwesome([["test", "this", "function"], ["another", "test", "ofFunction"], ["this", "is not", "the test"]])
 <br><br>
 Output:
-
+<br><br>
 Array 1
+
 test
+
 this
+
 function
-
+<br><br>
 Array 2
-another
-test
-ofFunction
 
+another
+
+test
+
+ofFunction
+<br><br>
 Array3
+
 this
+
 is not
+
 the test
