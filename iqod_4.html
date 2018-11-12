@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+
+    const kennIsAwesome = ([["test", "this", "function"],
+        ["another", "test", "ofFunction"],
+        ["this", "is not", "the test"]]);
+
+    for (i = 0; i<=kennIsAwesome.length;i++){
+
+        for (q = 0;q<=kennIsAwesome[i].length;q++){
+            var newarray = (kennIsAwesome[i].splice(q)+'<br/>');
+            document.write(newarray,'<br/>')
+        }
+
+    }
+</script>
+
+</body>
+</html>
